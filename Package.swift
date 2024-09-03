@@ -13,6 +13,10 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "PermissionsKit",
+            targets: ["PermissionsKit"]
+        ),
+        .library(
             name: "CameraPermission",
             targets: ["CameraPermission"]
         ),
